@@ -6,7 +6,7 @@ echo color("blue","[]  Time  : ".date('[d-m-Y] [H:i:s]')."   \n");
 
 echo color("yellow"," MBAH OZIL             \n");
 
-echo color("red"," JANGAN LUPA SOLAT BIAR SELAMAT      \n");
+echo color("red"," JANGAN LUPA SOLAT BIAR SELAMAT DUNIA AKHIRAT     \n");
 echo color("green"," ===================================   \n");
 
 function change(){
@@ -102,11 +102,11 @@ function change(){
         $expired3 = getStr1('"expiry_date":"','"',$cekvoucher,'3');
         $expired4 = getStr1('"expiry_date":"','"',$cekvoucher,'4');
          setpin:
-         echo "\n".color("nevy","?] Mau set pin?: y/n ");
+         echo "\n".color("nevy","?] Mau pasang pin?: y/n ");
          $pilih1 = trim(fgets(STDIN));
          if($pilih1 == "y" || $pilih1 == "Y"){
          //if($pilih1 == "y" && strpos($no, "628")){
-         echo color("red","========( PIN ANDA = 112233 )========")."\n";
+         echo color("red","========( PIN GOJEK KAMU = 112233 )========")."\n";
          $data2 = '{"pin":"787878"}';
          $getotpsetpin = request("/wallet/pin", $token, $data2, null, null, $uuid);
          echo "Otp set pin: ";
