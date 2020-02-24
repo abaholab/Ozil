@@ -2,11 +2,12 @@
 date_default_timezone_set('Asia/Jakarta');
 include "function.php";
 echo color("green"," ===================================   \n");
-echo color("yellow"," MBAH OZIL             \n");
+echo color("blue","[]  Time  : ".date('[d-m-Y] [H:i:s]')."   \n");
 
+cho color("yellow"," MBAH OZIL             \n");
 echo color("red"," JANGAN LUPA SOLAT BIAR SELAMAT      \n");
+echo color("green"," ===================================   \n");
 
-echo color("green"," ===================================   \n");cho color("green","[]  Time  : ".date('[d-m-Y] [H:i:s]')."   \n");
 function change(){
         $nama = nama();
         $email = str_replace(" ", "", $nama) . mt_rand(100, 999);
