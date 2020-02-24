@@ -7,7 +7,9 @@ echo color("red"," Auto Regist Gojek 2020 \n");
 echo color("green"," Auto Create & Redeem Voucher \n");
 
 echo color("green"," =================================== \n");
-echo " R A D J A  ADITYA  P R A T A MA    \n";
+echo " MBAH OZIL    \n";
+
+echo color("red"," GUNAKAN DENGAN BIJAK \n");
 
 
 echo " BACA DOA BIAR BERKAH  \n";
