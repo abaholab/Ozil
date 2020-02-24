@@ -4,7 +4,8 @@ include "function.php";
 echo color("green"," ===================================   \n");
 echo color("blue","[]  Time  : ".date('[d-m-Y] [H:i:s]')."   \n");
 
-cho color("yellow"," MBAH OZIL             \n");
+echo color("yellow"," MBAH OZIL             \n");
+
 echo color("red"," JANGAN LUPA SOLAT BIAR SELAMAT      \n");
 echo color("green"," ===================================   \n");
 
